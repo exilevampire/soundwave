@@ -1,0 +1,26 @@
+# Configuration & Sensitive Files
+includes/config.php
+.env
+.env.local
+
+# User Uploads
+uploads/songs/*
+uploads/covers/*
+!uploads/songs/.gitkeep
+!uploads/covers/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+*.tmp
+
+# Database
+*.sql.backup
